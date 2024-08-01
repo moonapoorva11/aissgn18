@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Foldit:wght@100..900&family=Kalnia+Glaze:wght@100..700&display=swap');
+.heading{
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    font-size: 50px;
+  
+}
+.heading:hover{
+    font-size: 45px;
+   color: brown;
+  
+}
+
+body{
+    background-color: pink;
+}
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px;
+}
+.head-img{
+    width: 800px;
+    height: 500px;
+    border-radius: 50px;
+}
+.head-img:hover{
+    border-radius:100px ;
+    transition: 0.3s;
+}
+.para-div{
+ width: 40%;
+}
+.para{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    text-align: justify; 
+    font-size: 20px;
+
+}
+
+.main-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    width: 250px;
+    height: 400px;
+    border: double palevioletred 3px;
+    border-radius: 20px;
+    box-shadow: 2px 4px 2px 4px rgb(103, 32, 55);
+    
+}
+.card-img{
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+.card-img:hover{
+    border-radius: 40px;
+}
+.price{
+    text-align: center;
+    font-size: 20px;
+}
+.btn{
+    display: block;
+    margin: 0 auto;
+    padding: 5px 20px;
+    color: white;
+    background-color: black;
+   
+   
+}
+.btn:hover{
+    background-color: rgb(230, 63, 91);
+    color: black;
+    border-radius: 20px;
+}
